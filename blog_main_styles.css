@@ -2,6 +2,7 @@
 
 * {
   font-family: verdana, arial, eurpoa, sans-serif;
+    border: 1px solid red;
 }
 
 .body_container {
@@ -11,6 +12,7 @@
 body {
   background-color: #F1F0FF;
 }
+
 .bulletless {
   list-style-type: none;
   padding-left: 0;
@@ -72,6 +74,7 @@ body {
   color: #9933FF;
   text-align: center;
   padding: 15px;
+  margin-bottom: 20px;
   text-decoration: none;
 }
 
@@ -106,6 +109,49 @@ body {
   color: white;
 }
 
+#content_container {
+  height: auto;
+  width: 100%;
+
+}
+
+#content_tops {
+  left: 0;
+  position: absolute;
+  display: inline-block;
+}
+
+#content_tops .tp1, .tp3, .tp5 {
+
+}
+
+#content_tops .tp2, .tp3 {
+
+}
+#content {
+  width: 75%;
+}
+
+#content .recent1, .recent2, .recent3{
+  width: 250px;
+  position: relative;
+  display: inline-block;
+
+}
+
+#freshest {
+  margin: 150px 40px;
+  padding: 30px 30px;
+  height: 400px;
+  width: 975px;
+  /* get centered on page */
+
+
+}
+
+
+
+
 #footer {
   background-color: #9933FF;
   color: #F1F0FF;
@@ -115,7 +161,6 @@ body {
   border-radius: 20px; /* confirm this one */
 
   text-align: center;
-
 }
 
 #center_upper{
