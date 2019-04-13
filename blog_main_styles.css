@@ -117,19 +117,25 @@ body {
 
 #content_tops {
   left: 0;
+  width: 300px;
   position: absolute;
   display: inline-block;
 }
 
 #content_tops .tp1, .tp3, .tp5 {
-
+text-align: left;
 }
 
 #content_tops .tp2, .tp3 {
-
+text-align: center;
 }
 #content {
   width: 75%;
+  display: inline-block;
+}
+
+#recents {
+  width: 650px;
 }
 
 #content .recent1, .recent2, .recent3{
