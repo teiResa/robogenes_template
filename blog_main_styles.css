@@ -45,6 +45,13 @@ body {
 
 }
 
+.top-picks {
+
+    left: 0;
+    width: 50;
+    display: inline-block;
+}
+
 /* NAVBAR */
 #navbar {
   background-color: #333;
@@ -112,23 +119,24 @@ body {
 #content_container {
   height: auto;
   width: 100%;
-
+  padding-top: 75px;
 }
 
 #content_tops {
-  left: 0;
-  width: 300px;
-  position: absolute;
-  display: inline-block;
+height: 500px;
+ width: 142px;
 }
 
 #content_tops .tp1, .tp3, .tp5 {
 text-align: left;
+width: 100px;
 }
 
 #content_tops .tp2, .tp3 {
 text-align: center;
+width: 100px;
 }
+
 #content {
   width: 75%;
   display: inline-block;
@@ -136,13 +144,36 @@ text-align: center;
 
 #recents {
   width: 650px;
+  right: 0;
 }
-
+ /*
 #content .recent1, .recent2, .recent3{
   width: 250px;
-  position: relative;
+  position: ;
   display: inline-block;
 
+}
+*/
+
+#recent1 {
+  float: left;
+  height: 200px;
+  width: 30%;
+  display: ;
+}
+
+#recent2 {
+  float: left;
+  height: 200px;
+  width: 30%;
+  display: ;
+}
+
+#recent3 {
+  float: left;
+  height: 200px;
+  width: 30%;
+  display:;
 }
 
 #freshest {
@@ -151,8 +182,6 @@ text-align: center;
   height: 400px;
   width: 975px;
   /* get centered on page */
-
-
 }
 
 
@@ -161,12 +190,14 @@ text-align: center;
 #footer {
   background-color: #9933FF;
   color: #F1F0FF;
-  height: 180px;
+  height: 200px;
+  padding-top: 40px;
   margin-left: 30px;
   margin-right: 30px;
   border-radius: 20px; /* confirm this one */
 
   text-align: center;
+  overflow-x: hidden;
 }
 
 #center_upper{
