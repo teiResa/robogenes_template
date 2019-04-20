@@ -12,7 +12,7 @@ body {
   margin-top: 10px;
   margin: auto;
   padding-bottom: 20px;
-  height: 1500px;
+  height: 1700px;
   width: 100%;
 }
 
@@ -140,6 +140,7 @@ body {
   background-color: skyblue;
   float: left;
   height: 40%;
+  width: 30%;
 
 }
 
@@ -150,14 +151,22 @@ body {
 }
 
 .tops_img {
-  width: 50px;
+  width: 100px;
+  height: 100px;
   float: left;
   border: 1px solid red;
 }
 
 .tops_img #tp2. #tp4 {
+  top: 5px;
+ /*  right: 10px; */
+ left: 170px;
 
+
+ position: absolute;
 }
+
+
 
 #tp1, #tp3, #tp5 {
 text-align: left;
@@ -188,7 +197,7 @@ text-align: center;
 
 #recents {
   height: 1000px;
-  width: 700px;
+  width: 60%;
   margin-left:;
 
   padding: 15px;
@@ -206,22 +215,23 @@ text-align: center;
 #recent1 {
   float: left;
   height: 200px;
-  width: 31.4%;
-  display: ;
+  width: 30%;
+  display: fixed;
   margin: 5px;
+  margin-bottom: 20px;
 }
 #recent2 {
   float: left;
   height: 200px;
-  width: 31.4%;
-  display: ;
+  width: 30%;
+  display: fixed;
   margin: 5px;
 }
 #recent3 {
   float: left;
   height: 200px;
-  width: 31.4%;
-  display:;
+  width: 30%;
+  display: fixed;
   margin: 5px;
 }
 #freshest {
@@ -231,6 +241,32 @@ text-align: center;
   width: 90%;
   /* get centered on page */
 }
+
+.hexa, .hexa div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.hexa {
+  width: 275px;
+  height: 180px;
+}
+.hexa div {
+  width: 100%;
+  height: 100%;
+}
+.hexa {
+  transform: rotate(120deg);
+}
+.hex1 {
+  transform: rotate(-60deg);
+}
+.hex2 {
+  transform: rotate(-60deg);
+}
+
 
 
 
