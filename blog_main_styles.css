@@ -12,7 +12,7 @@ body {
   margin-top: 10px;
   margin: auto;
   padding-bottom: 20px;
-  height: 1700px;
+  height: 1500px;
   width: 100%;
 }
 
@@ -155,16 +155,9 @@ body {
   height: 100px;
   float: left;
   border: 1px solid red;
+  margin: 10px;
 }
 
-.tops_img #tp2. #tp4 {
-  top: 5px;
- /*  right: 10px; */
- left: 170px;
-
-
- position: absolute;
-}
 
 
 
@@ -241,7 +234,7 @@ text-align: center;
   width: 90%;
   /* get centered on page */
 }
-
+/* image frames for less-recent articles */
 .hexa, .hexa div {
   margin: 0 auto;
   transform-origin: 50% 50%;
@@ -266,7 +259,16 @@ text-align: center;
 .hex2 {
   transform: rotate(-60deg);
 }
+ /* image frame for freshest article */
 
+ div.test {
+     background: url(http://lorempixel.com/output/cats-q-c-200-200-5.jpg) no-repeat 50% 50%;
+     background-size: cover;
+     -webkit-clip-path: url(#myClip);
+     clip-path: url(#myClip);
+     width: 200px;
+     height: 200px;
+ }
 
 
 
