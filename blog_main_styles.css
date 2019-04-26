@@ -155,16 +155,16 @@ body {
 
 .content_tops {
   width: auto;
-  height: 20%;
-  border: 1px solid red;
+  height: 18%;
+  border-bottom: 1px dashed silver;
 }
 
 .tops_img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   float: left;
-  border: 1px solid red;
-  margin: 10px;
+
+  margin: 5px;
   margin-left: ;
 
 }
@@ -293,6 +293,33 @@ text-align: center;
      height: 200px;
  }
 
+
+.about_container {
+  float: left;
+  width: 30%;
+  margin: 5%;
+}
+
+.popular_tags {
+  width: 60%;
+  margin: 5%;
+}
+
+#about_site {
+
+}
+#about_author {}
+
+
+.popT {
+  margin: 5px;
+}
+.popM {
+  margin: 5px;
+}
+.popB {
+  margin: 5px;
+}
 
 
 
