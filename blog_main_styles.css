@@ -137,7 +137,7 @@ body {
 */
 .tops_container {
   padding: 5px;
-  background-color: skyblue;
+  background-color: #AB9FAB;
   float: left;
   height: 40%;
   width: 30%;
@@ -151,18 +151,29 @@ body {
 }
 
 .tops_img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   float: left;
   border: 1px solid red;
   margin: 10px;
+  margin-left: ;
+
+}
+
+.content_tops h5 {
+  margin-bottom: 5px;
+}
+
+.tags {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 
 
-
 #tp1, #tp3, #tp5 {
-text-align: left;
+text-align: center;
 
 }
 
@@ -192,9 +203,12 @@ text-align: center;
   height: 1000px;
   width: 60%;
   margin-left:;
-
   padding: 15px;
-  background-color: pink;
+  background-color: #AB9FAB;
+}
+
+.freshest_img {
+  padding-bottom: 10px;
 }
  /*
 #content .recent1, .recent2, .recent3{
@@ -228,7 +242,7 @@ text-align: center;
   margin: 5px;
 }
 #freshest {
-  margin: 150px 40px;
+  margin: 100px 40px;
   padding: 30px 30px;
   height: 400px;
   width: 90%;
