@@ -54,13 +54,22 @@ body {
 /* NAVBAR */
 #navbar {
   background-color: #333;
-
+  display: ;
   position: absolute; /* Make it stick/fixed */
   height: 50px;
   top: 0;
 
   width: 100%;
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+#center_navbar {
+  top: 0;
+  padding-top: 5px;
+  padding-left: 47.5%;
+  position: absolute;
+
+  transition: top 0.3s;
 }
 
 #right_navbar {
