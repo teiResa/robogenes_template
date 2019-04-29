@@ -182,12 +182,12 @@ body {
 
 
 #tp1, #tp3, #tp5 {
-text-align: center;
+  text-align: center;
 
-}
+  }
 
 #tp2, #tp4 {
-text-align: center;
+  text-align: center;
 
 }
 
@@ -295,14 +295,21 @@ text-align: center;
 
 
 .about_container {
-  float: left;
+  clear: both;
+  float: none;
+
   width: 30%;
   margin: 5%;
+  padding-top: 20px;
+  border: 1px solid red;
 }
 
 .popular_tags {
+  clear: both;
+  float: none;
   width: 60%;
   margin: 5%;
+  border: 1px solid red;
 }
 
 #about_site {
