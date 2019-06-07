@@ -363,24 +363,29 @@ body {
   padding-left: 15%;
 }
 
+.container_about_container {
+  clear: both;
+  float: center;
+  padding: 20px;
+  margin: 10px;
+}
 
 .about_container {
   background-color: #AB9FAB;
-  clear: both;
-  float: center;
+
 
   width: 60%;
   height: 25%;
   margin: 15px;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-top: 70px;
   border: 1px solid red;
 
 
   padding-top: 10px;
   padding-right: 7px;
   padding-bottom: 10px;
-  padding-left: 25px;
-
+  padding-left: 40px;
 }
 
 .popular_tags {
